@@ -1,0 +1,128 @@
+a
+{
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s;
+}
+
+a:hover
+{
+    font-weight: bolder;
+    color: orangered;
+    font-size: 25px;
+    transition: 1s;
+    margin-bottom: 1px;
+}
+fieldset
+{
+    width: 50%;
+    margin: 0 auto;
+    font-weight: bold;
+    background: #eee;
+}
+.erreurs
+{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    background: rgb(250, 176, 150);
+    margin: 0 auto;
+    margin-top: 10px;
+    transition-duration: 3s;
+    line-height: 50px;
+}
+.valide
+{
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    background: rgb(133, 238, 133);
+    margin: 0 auto;
+    margin-top: 10px;
+    transition-duration: 3s;
+    line-height: 50px;
+}
+
+.main 
+{
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+.inferieur
+{
+    width: 40%;
+    height:400px;
+    display: inline-table;
+    background:#ccc;
+    float:left;
+    margin-right:50px;
+}
+
+.inferieur h1
+{
+    color: orangered;
+    text-align: center;
+}
+
+.inferieur table
+{
+    border: 1px solid #000;
+    margin: 0 auto;
+    width: 80%;
+    background: orangered;
+}
+
+.inferieur table td
+{
+    border: 1px solid #000;
+    background: rgb(134, 130, 130);
+    text-align: center;
+}
+.inferieur table td:hover
+{
+    background: indianred;
+    color: #FFF;
+    transform: scale(1.2) rotate(10deg);
+}
+
+.superieur
+{
+    width: 40%;
+    height:400px;
+    background:#ccc;
+    float:left;
+    display: inline-table;
+    margin-right:50px;
+}
+.superieur h1
+{
+    color: orangered;
+    text-align: center;
+}
+
+.superieur table
+{
+    border: 1px solid #000;
+    margin: 0 auto;
+    width: 80%;
+    background: orangered;
+}
+
+.superieur table td
+{
+    border: 1px solid #000;
+    background: rgb(134, 130, 130);
+    text-align: center;
+}
+.superieur table td:hover
+{
+    background: indianred;
+    color: #FFF;
+    transform: scale(1.2) rotate(10deg);
+}
